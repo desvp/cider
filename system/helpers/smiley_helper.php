@@ -237,7 +237,7 @@ if ( ! function_exists('_get_smiley_array'))
         {
             include(APPPATH.'config/smileys.php');
         }
-        
+
         if (isset($smileys) AND is_array($smileys))
         {
             return $smileys;
